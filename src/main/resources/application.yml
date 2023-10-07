@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: "file:///Users/admin/NUPL/Udemy Courses/Master Microservices /microservice/config"
+
+server:
+  port: 8888
